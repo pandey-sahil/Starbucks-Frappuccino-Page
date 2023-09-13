@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+#main{
+    height: 115%;
+    width: 100%;
+    overflow: hidden;
+}
+#page1{
+    height: 100%;
+    display: flex;
+    widows: 100%;
+
+}
+#left{
+    height: 100%;
+    width: 80%;
+    background-color: #006442;
+}
+#nav{
+    width: 100%;
+    display: flex;
+    padding: 15px 50px;
+    align-items: center;
+    gap: 50px;
+}
+#nav>img{
+    height: 75px;
+
+}
+#nav>#links{
+    display: flex;
+    gap: 30px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 100;
+}
+#links>h4{
+    font-weight: 500;
+    font-size: 15px;
+}
+#left>#center{
+    /* background-color: skyblue; */
+    height: 82.52%;
+    font-size: 3vw;
+    color: white;
+    padding: 30px 50px;
+}
+#center>h1>span{
+    font-weight: 800;
+    -webkit-text-stroke: 2px #000000;
+}
+#center>h4{
+    font-size: 1.3vw;
+    margin-top: 40px;
+    font-weight: 500;
+}
+
+#bottom{
+    height: 275px;
+    border-top-right-radius: 50px;
+    background-color: white;
+    margin-left: -50px;
+    margin-top: 50px;
+    width: 90%;
+    align-items: end;
+    gap: 20px;
+    /* padding: 10px 50px; */
+    padding-right: 20px;
+    justify-content: space-evenly;
+    display: flex;
+}
+#bottom>.coffee{
+    height: 120px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    background-color:#006442;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.coffee>img{
+    height: 210%;
+    transform: translateY(-30%);
+}
+    /*
+.coffee:nth-child(3){
+    height: 200px;
+} */
+#bottom>h4{
+    color: #027951;
+    /* margin: 0 50px; */
+    margin-bottom: 50px;
+    /* background-color: red; */
+    margin-right: -100px;
+    transform: rotateZ(-90deg) translate(50%, -100%);
+    font-size: 2vw;
+    /* text-transform: uppercase; */
+    font-weight: 400;
+    margin-left: -30px;
+    
+}
+#right{
+    height: 100%;
+    width: 25%;
+    background: linear-gradient(#E9B97B, #EFD1AA);
+    /* border-radius: 50px; */
+    display: flex;
+    align-items: center;
+}
+#right>img{
+    transform: translate(-48%);
+    filter: brightness(1.05);
+
+    height: 90%;
+}
